@@ -34,8 +34,8 @@ const registerUser = async (req, res) => {
             host: "smtp.mailtrap.io",
             port: 2525,
             auth: {
-              user: process.env.USEREMAIL,
-              pass: process.env.PASSEMAIL
+              user: process.env.USERMAIL,
+              pass: process.env.PASSMAIL
             }
         });
 
